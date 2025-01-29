@@ -1,5 +1,6 @@
 package com.bptn.course.car;
 
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -8,8 +9,11 @@ public class Main {
         //Car car2 = new Car("Red", "Audi", 80000);
         //car1.printCarDetails();
         //car2.printCarDetails();
+		
+	 
     }
 		// TODO Auto-generated method stub
+	
 
 	}
 
