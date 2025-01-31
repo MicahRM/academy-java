@@ -53,7 +53,7 @@ public class Board {
 	    public boolean addToken(int colToAddToken, String token) {
 	        int rowToAddToken = board.length - 1;
 
-	        while (// what condition should be here to allow you to keep searching for the right row level of the board to place the token? ) {
+	        //while (// what condition should be here to allow you to keep searching for the right row level of the board to place the token? ) {
 	            if (board[rowToAddToken][colToAddToken].equals("-")) {
 	               // You now know the right row and column to place the token. Place it and then return true.
 	               
@@ -61,7 +61,7 @@ public class Board {
 	            } else {
 	                rowToAddToken -= 1;
 	            }
-	        }
+	       // }
 
 	        return false;
 	    }
@@ -116,8 +116,8 @@ public class Board {
 	        return false;
 	    }
 
-	    public boolean checkRightDiagonal(String playerNumber) {
-	       // implment method and return an appropriate return type.
+	   // public boolean checkRightDiagonal(String playerNumber) {
+	       // implement method and return an appropriate return type.
 	    }
 
 	    // TODO: Uncomment this to test your board class in isolation. 
@@ -178,4 +178,4 @@ public class Board {
 	    // }
 
 
-}
+//}
