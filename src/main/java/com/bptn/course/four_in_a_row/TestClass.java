@@ -4,8 +4,8 @@ public class TestClass {
 
 	public static void main(String[] args) {
 
-		Game fourInARowGame = new Game(players, board);// complete line;
-		fourInARowGame.play();
+		//Game fourInARowGame = new Game(players, board);// complete line;
+		//fourInARowGame.play();
 
 	}
 

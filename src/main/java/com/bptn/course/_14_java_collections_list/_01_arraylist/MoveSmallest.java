@@ -1,4 +1,4 @@
-package com.bptn.course._14_java_collections._01_arraylist;
+package com.bptn.course._14_java_collections_list._01_arraylist;
 
 import java.util.ArrayList;
 
@@ -15,6 +15,8 @@ public class MoveSmallest {
 	        int smallest = list.get(smallestIndex);  //stores the smallest value found
 	        list.remove(smallestIndex);   //removes this value from the list
 	        list.add(0,smallest);   //adds it to the front
+	        
+	        
 	        
 	        
 	        //or  Integer smallest = list.remove(smallestIndex);

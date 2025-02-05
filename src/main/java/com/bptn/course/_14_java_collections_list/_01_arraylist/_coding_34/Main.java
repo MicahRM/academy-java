@@ -1,4 +1,4 @@
-package com.bptn.course._14_java_collections._01_arraylist._coding_34;
+package com.bptn.course._14_java_collections_list._01_arraylist._coding_34;
 
 import java.util.ArrayList;
 import java.util.List;
