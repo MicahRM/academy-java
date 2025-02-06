@@ -1,4 +1,4 @@
-package com.bptn.course._16_hashmap;
+package com.bptn.course._16_java_collections_map;
 
 import java.util.HashMap;
 import java.util.Map;
